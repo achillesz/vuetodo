@@ -1,0 +1,13 @@
+{
+    "extends": "standard",
+    "plugins": [
+        "html"
+    ],
+    "rules": {
+       // "indent": "off",
+       "quotes": [1, "double"],
+       "no-new": "off",
+        "no-mixed-spaces-and-tabs": [0],
+        "semi": [0]
+    }
+  }
