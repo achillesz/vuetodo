@@ -26,7 +26,7 @@
 
 <script>
  import {
-     mapState,
+     mapState
 //   mapGetters,
 //   mapMutations,
 //   mapActions
@@ -80,16 +80,16 @@ export default {
     // let i = 1;
     // this['a/updateText']('123');
     // this.$store.dispatch('updateCountAsync', {
-    //   num: 5, 
+    //   num: 5,
     //   time: 2000
     // });
 
     // this.updateCountAsync({
-    //   num: 5, 
+    //   num: 5,
     //   time: 2000
-    // });
-    
-   //this.$store.state.count = 3;
+    // })
+
+   // this.$store.state.count = 3
     // setInterval(() => {
     //   // this.$store.commit('updateCount', {
     //   //   num: i++,

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rimraf public && rimraf server-build",
+    "clean": "rimraf public && rimraf server_build",
     "lint": "eslint --ext .js --ext .jsx --ext .vue build/ client/",
     "lint-fix": "eslint --fix --ext .js --ext .jsx --ext .vue ",
     "practice": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.config.practice.js",

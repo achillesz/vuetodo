@@ -4,10 +4,10 @@
         "html"
     ],
     "rules": {
-       // "indent": "off",
+        "indent": "off",
        "quotes": [1, "double"],
        "no-new": "off",
-        "no-mixed-spaces-and-tabs": [0],
+        "no-mixed-spaces-and-tabs": [1],
         "semi": [0]
     }
   }
