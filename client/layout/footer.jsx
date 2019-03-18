@@ -1,9 +1,9 @@
-import './../assets/styles/footer.styl'
+import "./../assets/styles/footer.styl"
 
 export default {
   data () {
     return {
-      author: 'Jokcy'
+      author: "achilles"
     }
   },
   render () {

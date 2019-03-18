@@ -1,26 +1,26 @@
-const Router = require('koa-router')
+const Router = require("koa-router")
 const userRouter = new Router({
-  prefix: '/user'
+  prefix: "/user"
 })
 
-userRouter.post('/login', async ctx => {
+userRouter.post("/login", async ctx => {
   const user = ctx.request.body
-  if (user.username === 'achilles' && user.password === "achilles123456") {
+  if (user.username === "achilles" && user.password === "123456") {
     ctx.session.user = {
-      username: 'achilles'
+      username: "achilles"
     }
 
     ctx.body = {
       success: true,
       data: {
-        username: 'achilles'
+        username: "achilles"
       }
     }
   } else {
     ctx.status = 300
     ctx.body = {
       success: false,
-      message: 'username or password error'
+      message: "username or password error"
     }
   }
 })
